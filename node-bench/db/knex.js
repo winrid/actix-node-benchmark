@@ -2,9 +2,9 @@ const knex = require('knex')({
     client: 'pg',
     connection: {
         host : process.env.DB_HOST,
-        user : 'sped',
-        password : 'sped',
-        database : 'sped'
+        user : 'localhost',
+        password : 'password',
+        database : 'postgres'
     },
     pool: {
         min: 5,
